@@ -6,7 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        ul {
+            display: flex;
+            padding-left: 0;
+            margin: 0;
+        }
+        li {
+            list-style-type: none;
+            display: inline-block;
+            height: 50px;
+            margin: 0;
+            padding: 0;
+            flex-basis: 33.33333%;
+        }
+        li:nth-child(1) {
+            background-color: purple;
+        }
+        li:nth-child(2) {
+            background-color: red;
+        }
+        li:nth-child(3) {
+            background-color: yellow;
+        }
     </style>
 </head>
 <body>
